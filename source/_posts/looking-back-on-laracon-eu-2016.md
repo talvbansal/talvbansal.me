@@ -11,7 +11,7 @@ coverImage: ./laracon-2016-stage.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./laracon-2016-stage.jpg
+thumbnailImage: laracon-2016-stage.jpg
 thumbnailImagePosition: right
 ---
 

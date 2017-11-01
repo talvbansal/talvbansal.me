@@ -11,7 +11,7 @@ coverImage: ./santorini-domes.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./santorini-domes.jpg
+thumbnailImage: santorini-domes.jpg
 thumbnailImagePosition: right
 ---
 

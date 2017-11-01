@@ -12,7 +12,7 @@ coverImage: ./cancun-sunset.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./cancun-sunset.jpg
+thumbnailImage: cancun-sunset.jpg
 thumbnailImagePosition: right
 ---
 

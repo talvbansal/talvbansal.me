@@ -10,7 +10,7 @@ coverImage: ./new-york-skyline.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./new-york-skyline.jpg
+thumbnailImage: new-york-skyline.jpg
 thumbnailImagePosition: right
 
 ---

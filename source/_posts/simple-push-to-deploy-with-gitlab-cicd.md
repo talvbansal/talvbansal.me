@@ -12,7 +12,7 @@ coverImage: ./westminister-sunset.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./westminister-sunset.jpg
+thumbnailImage: westminister-sunset.jpg
 thumbnailImagePosition: right
 ---
 

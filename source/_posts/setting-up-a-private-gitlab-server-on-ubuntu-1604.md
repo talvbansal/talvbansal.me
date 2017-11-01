@@ -12,7 +12,7 @@ coverImage: ./st-basils-moscow.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./st-basils-moscow.jpg
+thumbnailImage: st-basils-moscow.jpg
 thumbnailImagePosition: right
 ---
 

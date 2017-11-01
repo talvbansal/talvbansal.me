@@ -10,7 +10,7 @@ coverImage: ./south-africa-penguins.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./south-africa-penguins.jpg
+thumbnailImage: south-africa-penguins.jpg
 thumbnailImagePosition: right
 ---
 

@@ -12,7 +12,7 @@ coverImage: ./south-africa-lion-male.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: ./south-africa-lion-male.jpg
+thumbnailImage: south-africa-lion-male.jpg
 thumbnailImagePosition: right
 ---
 
