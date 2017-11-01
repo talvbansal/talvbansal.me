@@ -11,6 +11,7 @@ global:
     search: "Search"
     about: "About"
     author_picture: "Author's picture"
+    gitlab: "GitLab"
     github: "GitHub"
     stack_overflow: "Stack Overflow"
     twitter: "Twitter"

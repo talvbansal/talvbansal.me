@@ -5,6 +5,7 @@ tags:
 - Gitlab
 - Laravel
 - PHP
+- Devops
 
 autoThumbnailImage: yes
 coverImage: ./st-basils-moscow.jpg
