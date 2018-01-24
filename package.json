@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.4.0"
+    "version": "3.4.4"
   },
   "scripts": {
     "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
