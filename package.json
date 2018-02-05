@@ -6,10 +6,8 @@
     "version": "3.4.4"
   },
   "scripts": {
-    "deploy": "yarn clean && yarn generate && yarn upload && yarn invalidate && yarn update-algolia",
-    "dev": "hexo server",
-    "generate": "hexo generate",
-    "algolia": "hexo algolia"
+    "deploy": "hexo generate && hexo deploy && hexo algolia",
+    "dev": "hexo server"
   },
   "dependencies": {
     "hexo": "^3.2.0",
