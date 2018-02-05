@@ -7,10 +7,13 @@ tags:
 - VueNYC
 - Laravel
 
+autoThumbnailImage: yes
 coverImage: ./nyc-from-empire-state.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
+thumbnailImage: nyc-from-empire-state.jpg
+thumbnailImagePosition: right
 ---
 
 Recently I spoke at [VueNYC](http://vuejs.nyc/) about my journey from the world of jQuery to Vue and some of the problems people may have along the way:
@@ -19,4 +22,6 @@ Check it out below:
 
 {% youtube 7YiWLXzXFh4 %}
 
-If you're in NYC they have monthly meetups that you can sign up for over here : [VueNYC](https://www.meetup.com/vueJsNYC).
+If you're in NYC they have monthly meetups that you can sign up for over here : [VueNYC](https://www.meetup.com/vueJsNYC). 
+
+<!-- more -->
