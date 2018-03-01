@@ -41,3 +41,5 @@ cd bin
 ```
 
 Once you've run this just run `./xmr-stak` and begin configuring your miner!
+
+<!-- more -->
