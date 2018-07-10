@@ -1,11 +1,12 @@
 ---
-title: Simple push to deploy with gitlab CI/CD
+title: Simple push to deploy with Gitlab CI/CD
 date: 2017-05-24 16:15:27
 tags:
 - Gitlab
 - PHP
 - Laravel
 - Devops
+- CI/CD
 
 autoThumbnailImage: yes
 coverImage: ./westminister-sunset.jpg

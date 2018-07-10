@@ -6,6 +6,7 @@ tags:
 - Laravel
 - PHP
 - Devops
+- CI/CD
 
 autoThumbnailImage: yes
 coverImage: ./cancun-sunset.jpg

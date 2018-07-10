@@ -8,6 +8,7 @@ tags:
 - Ecmascript
 - Tooling
 - Gitlab
+- CI/CD
 
 autoThumbnailImage: yes
 coverImage: ./portugal-tram.jpg
