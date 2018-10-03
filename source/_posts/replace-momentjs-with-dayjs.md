@@ -41,6 +41,7 @@ I did have to update a couple of the [formatters](https://github.com/iamkun/dayj
 
 Following a production build I was able to compare the bundle sizes between `moment.js` with locales remove and `dayjs` in the project I was working on:
 
+
 | Configuration                                     |  Bundle Size  |
 | ------------------------------------------------- |:-------------:|
 | [Media-manager with moment.js](https://github.com/talvbansal/media-manager/blob/ee76639b154a88f58f05a97c5533922a23448274/public/js/media-manager.js) |          468kB |                   
