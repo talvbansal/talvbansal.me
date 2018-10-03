@@ -1,5 +1,5 @@
 ---
-title: Replacing Momentjs With Dayjs
+title: Replacing Moment.js With Dayjs
 date: 2018-10-02 19:01:00
 tags:
 - Laravel
