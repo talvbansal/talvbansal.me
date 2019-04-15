@@ -21,7 +21,7 @@ Doing so has helped me understand the servers that our production code has alway
 Towards the end of last year I started work on a new project that made heavy use of [Spatie's Event Projector package](https://github.com/spatie/laravel-event-projector).
 Without getting into the package too much, at its core it stores the payloads of all recorded events in a `JSON` column within a `stored_events` table. 
 
-I hadn't needed to use `JSON` columns before and since they were a part of MySQL 5.7 which was released in 2015 I had assumed there'd be no issues with unit testing them.
+I hadn't needed to use `JSON` columns before and since they were a part of MySQL 5.7 which was released in 2015 I had assumed there'd be no issues with using them.
 
 For the most part I was right, writing unit tests with Laravel's build in tools has made me come to love writing tests and made TDD part of my daily workflow.
 However when I tried to run the same tests within Gitlabs CI/CD pipelines I saw the following:
@@ -39,6 +39,7 @@ Configuration: /builds/secret-project/phpunit.xml
 <!--more-->
 
 Looks like the `json_extract` function was missing from SQLite. 
+
 I have always managed to get by using SQLite's in memory databases for my unit tests and have previously had instances where I'd need to come up with a work around for missing SQLite features.
 However this was different since tests were passing locally using an SQLite in memory database, but just failing on the CI/CD pipelines.
 
