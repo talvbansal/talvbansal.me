@@ -10,11 +10,11 @@ tags:
 - Day.js
 
 autoThumbnailImage: yes
-coverImage: ./mexico-city-bellas-artes.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352638/posts/mexico-city-bellas-artes.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: mexico-city-bellas-artes.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352638/posts/mexico-city-bellas-artes.jpg
 thumbnailImagePosition: right
 ---
 

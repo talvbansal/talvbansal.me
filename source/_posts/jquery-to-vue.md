@@ -8,11 +8,11 @@ tags:
 - Laravel
 
 autoThumbnailImage: yes
-coverImage: ./nyc-from-empire-state.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352239/posts/nyc-from-empire-state.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: nyc-from-empire-state.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352239/posts/nyc-from-empire-state.jpg
 thumbnailImagePosition: right
 ---
 

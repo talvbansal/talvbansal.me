@@ -11,11 +11,11 @@ tags:
 - CI/CD
 
 autoThumbnailImage: yes
-coverImage: ./portugal-tram.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555351960/posts/portugal-tram.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: portugal-tram.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,h_280/v1555351960/posts/portugal-tram.jpg
 thumbnailImagePosition: right
 
 ---

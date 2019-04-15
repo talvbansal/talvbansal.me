@@ -9,11 +9,11 @@ tags:
 - SQLite
 
 autoThumbnailImage: yes
-coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1900/v1555344239/posts/jaipur-hawa-mahal.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555344239/posts/jaipur-hawa-mahal.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,h_140/v1555344239/posts/jaipur-hawa-mahal.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,h_280/v1555344239/posts/jaipur-hawa-mahal.jpg
 ---
 When doing any sort of development work I've always preferred working on an Ubuntu machine.
 Doing so has helped me understand the servers that our production code has always been run on.

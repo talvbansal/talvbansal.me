@@ -8,11 +8,11 @@ tags:
 - PHP
 
 autoThumbnailImage: yes
-coverImage: ./south-africa-lion-male.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/v1555352306/posts/south-africa-lion-male.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: south-africa-lion-male.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352306/posts/south-africa-lion-male.jpg
 thumbnailImagePosition: right
 ---
 

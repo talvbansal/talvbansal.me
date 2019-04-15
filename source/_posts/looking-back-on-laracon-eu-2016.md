@@ -7,11 +7,11 @@ tags:
 - PHP
 
 autoThumbnailImage: yes
-coverImage: ./laracon-2016-stage.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352383/posts/laracon-2016-stage.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: laracon-2016-stage.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352383/posts/laracon-2016-stage.jpg
 thumbnailImagePosition: right
 ---
 

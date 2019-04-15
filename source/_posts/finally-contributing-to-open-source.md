@@ -6,11 +6,11 @@ tags:
 - Laravel
 
 autoThumbnailImage: yes
-coverImage: ./south-africa-penguins.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1400/v1555352082/posts/south-africa-penguins.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: south-africa-penguins.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352082/posts/south-africa-penguins.jpg
 thumbnailImagePosition: right
 ---
 

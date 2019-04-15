@@ -8,11 +8,11 @@ tags:
 - Devops
 
 autoThumbnailImage: yes
-coverImage: ./st-basils-moscow.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352729/posts/st-basils-moscow.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: st-basils-moscow.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352729/posts/st-basils-moscow.jpg
 thumbnailImagePosition: right
 ---
 

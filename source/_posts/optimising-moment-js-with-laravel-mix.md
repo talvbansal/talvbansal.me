@@ -10,11 +10,11 @@ tags:
 - Moment.js
 
 autoThumbnailImage: yes
-coverImage: ./mexico-city-street-art.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/v1555352452/posts/mexico-city-street-art.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: mexico-city-street-art.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352452/posts/mexico-city-street-art.jpg
 thumbnailImagePosition: right
 ---
 

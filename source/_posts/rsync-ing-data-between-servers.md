@@ -6,11 +6,11 @@ tags:
 - Linux
 
 autoThumbnailImage: yes
-coverImage: ./new-york-skyline.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352680/posts/new-york-skyline.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: new-york-skyline.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352680/posts/new-york-skyline.jpg
 thumbnailImagePosition: right
 
 ---

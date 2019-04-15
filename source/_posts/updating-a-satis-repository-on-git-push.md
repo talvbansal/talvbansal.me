@@ -7,11 +7,11 @@ tags:
 - Composer
 
 autoThumbnailImage: yes
-coverImage: ./santorini-domes.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352875/posts/santorini-domes.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: santorini-domes.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352875/posts/santorini-domes.jpg
 thumbnailImagePosition: right
 ---
 

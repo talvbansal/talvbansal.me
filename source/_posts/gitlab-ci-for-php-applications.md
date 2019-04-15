@@ -9,11 +9,11 @@ tags:
 - CI/CD
 
 autoThumbnailImage: yes
-coverImage: ./cancun-sunset.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352188/posts/cancun-sunset.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: cancun-sunset.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1555352188/posts/cancun-sunset.jpg
 thumbnailImagePosition: right
 ---
 
