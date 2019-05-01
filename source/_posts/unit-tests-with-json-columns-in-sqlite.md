@@ -15,6 +15,7 @@ coverMeta: in
 metaAlignment: center
 thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,h_280/v1555344239/posts/jaipur-hawa-mahal.jpg
 ---
+
 When doing any sort of development work I've always preferred working on an Ubuntu machine.
 Doing so has helped me understand the servers that our production code has always been run on.
 
