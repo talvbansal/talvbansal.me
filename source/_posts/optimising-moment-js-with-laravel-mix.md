@@ -3,6 +3,7 @@ title: Optimising Moment.js with Laravel Mix
 date: 2018-04-18 15:56:44
 tags:
 - Laravel
+- Laravel Mix
 - Javascript
 - Ecmascript
 - Tooling
