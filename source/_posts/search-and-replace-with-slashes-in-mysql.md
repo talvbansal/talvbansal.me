@@ -6,11 +6,11 @@ tags:
 - MySQL
 
 autoThumbnailImage: yes
-coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1556584444/posts/manhattan-skyline.jpg
+coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1557412436/posts/naples-piazza-del-plebiscito.jpg
 coverSize: partial
 coverMeta: in
 metaAlignment: center
-thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1556584444/posts/manhattan-skyline.jpg
+thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1557412436/posts/naples-piazza-del-plebiscito.jpg
 ---
 The project im currently working on makes use of Spaties [Event Projector package](https://github.com/spatie/laravel-event-projector). Recently the team at Spatie upgraded the package to Version 2. 
 
