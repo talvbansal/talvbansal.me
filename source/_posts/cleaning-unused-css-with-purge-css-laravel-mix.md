@@ -7,6 +7,7 @@ tags:
 - Javascript
 - CSS
 - Tooling
+- Purgecss
 
 autoThumbnailImage: yes
 coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1557168888/posts/joburg-graffiti.jpg
