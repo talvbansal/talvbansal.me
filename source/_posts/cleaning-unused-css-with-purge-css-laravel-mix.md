@@ -1,5 +1,5 @@
 ---
-title: Cleaning unused CSS with Purgecss Laravel Mix
+title: Cleaning unused CSS with Purgecss and Laravel Mix
 date: 2019-05-06 19:48:07
 tags:
 - Laravel
