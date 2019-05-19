@@ -8,6 +8,7 @@ tags:
 - Tooling
 - Moment.js
 - Day.js
+- Dayjs
 
 autoThumbnailImage: yes
 coverImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_1600/v1555352638/posts/mexico-city-bellas-artes.jpg

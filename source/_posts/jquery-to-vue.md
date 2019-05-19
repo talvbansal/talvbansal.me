@@ -4,6 +4,7 @@ date: 2018-01-15 16:24:17
 tags: 
 - Jquery
 - Vue
+- VueJs
 - VueNYC
 - Laravel
 
