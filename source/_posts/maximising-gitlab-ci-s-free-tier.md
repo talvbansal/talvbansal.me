@@ -116,6 +116,6 @@ It turns out that docker images are architecture specific, so this cryptic error
 standard_init_linux.go:211: exec user process caused "exec format error"
 ```
 
-meant that the docker image that had been built for x86_64 and therefore could not be run on the Pi's architecture. 
+meant that the docker image I'm currently using for most of my work (edbizarro/gitlab-ci-pipeline-php:7.3) had been built for x86_64 and therefore could not be run on the Pi's ARM architecture. 
 
 The sad part for me was this, in the aim of being proactive I wrote this blog post originally to show of all my learnings on how to get a runner configured and optimised for the raspberry pi!
