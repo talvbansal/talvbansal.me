@@ -34,7 +34,7 @@ When these jobs failed for whatever reason - including the clients system going 
 
 The team at [spatie.be](https://spatie.be/) created a great [package to do that](https://github.com/spatie/laravel-failed-job-monitor) handle notifying us when a failed job occurred.
 
-However have multiple jobs concurrently that run as frequently as every minute in some cases to check for things like data changes on their server. Which mean't that once the legacy system went down we would receive multiple notifications until the system came back up, (In some cases this has been hours - not ideal). 
+However there are multiple jobs being run concurrently that run as frequently as every minute to check for things on their server. Which mean't that once the legacy system went down we would receive multiple notifications until the system came back up, (In some cases this has been hours - not ideal). 
 
 After a while being flooded with these sorts of notifications makes them become an annoyance rather than useful and you begin to start ignoring them.
 
