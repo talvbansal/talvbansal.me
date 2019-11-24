@@ -35,7 +35,7 @@ However if you have the following:
  - SSH access to a device in a location with a Static IP (Perhaps you get one from your ISP or your office has one)
  - You use Linux or OSX (Sorry windows guys I don't think even with WSL this will work). 
  
- Then you can use the super handy command line tool [SSHUTTLE](https://github.com/sshuttle/sshuttle) to route all (or some) of your traffic through that device.
+Then you can use the super handy command line tool [SSHUTTLE](https://github.com/sshuttle/sshuttle) to route all (or some) of your traffic through that device.
 
 Lets take a look at getting it working...
 
