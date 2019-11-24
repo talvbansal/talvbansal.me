@@ -15,6 +15,7 @@ coverMeta: in
 metaAlignment: center
 thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scale,w_280/v1574634761/posts/naples-monument.jpg
 thumbnailImagePosition: right
+
 ---
 ### Introduction 
 Laravel's Form Requests are a great way of removing validation logic from your controllers. 
