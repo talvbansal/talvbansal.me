@@ -42,7 +42,7 @@ I've almost always worked on a Ubuntu machine for my development - tried a mac f
 
 As part of the build scripts I used to build my machine I installed a gitlab runner in the exact same way I did when I built the self hosted gitlab instance.
 
-For our purposes we made all of our runners shared for the business' gitlab group so that any runner could be used for any project. You can of course set runners per project but given the scale of our business at  
+For our purposes we made all of our runners shared for the business' gitlab group so that any runner could be used for any project. You can also set specific runners per project or use tags to isolate runners for particular tasks.  
 
 You can navigate to your group's setup page from the [group list url](https://gitlab.com/dashboard/groups).
 
@@ -99,6 +99,7 @@ After saving an exiting you'll need to restart the gitlab-runner service
 sudo systemctl restart gitlab-runner
 ```
 
+
 ### Gotchas
 
 Raspberry Pi. Don't.
@@ -118,4 +119,4 @@ standard_init_linux.go:211: exec user process caused "exec format error"
 
 meant that the docker image I'm currently using for most of my work (edbizarro/gitlab-ci-pipeline-php:7.3) had been built for x86_64 and therefore could not be run on the Pi's ARM architecture. 
 
-The sad part for me was this, in the aim of being proactive I wrote this blog post originally to show of all my learnings on how to get a runner configured and optimised for the raspberry pi!
+The sad part for me was this, in the aim of being proactive I wrote this blog post originally to show of all my learnings on how to get a runner configured and optimised for the raspberry pi - Nevermind!
