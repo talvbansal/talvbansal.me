@@ -1,6 +1,6 @@
 ---
 title: Resizing images for static sites with php when deploying to Netlify
-date: 2020-02-03 12:11:39
+date: 2020-02-02 12:11:39
 tags:
 - Netlify
 - PHP
