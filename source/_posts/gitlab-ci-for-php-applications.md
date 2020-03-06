@@ -17,6 +17,8 @@ thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scal
 thumbnailImagePosition: right
 ---
 
+** Update March 2020 - I've given written a newer more updated version of this article, [check it out over here.](/blog/in-depth-gitlab-ci-cd-with-laravel-apps/) **
+
 ## Introduction
 
 Gitlab provides some good documentation on getting build runners for your projects set up which can be found [here](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/). However I haven't found a good article on setting up Gitlab CI for PHP applications yet. 

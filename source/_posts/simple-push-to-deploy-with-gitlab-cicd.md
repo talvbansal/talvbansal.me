@@ -17,9 +17,11 @@ thumbnailImage: https://res.cloudinary.com/www-talvbansal-me/image/upload/c_scal
 thumbnailImagePosition: right
 ---
 
+** Update March 2020 - I've given written a newer more updated version of this article, [check it out over here.](/blog/in-depth-gitlab-ci-cd-with-laravel-apps/) **
+
 ## Introduction
 
-This article follows directly on from my [previous article](https://talvbansal.me/blog/gitlab-ci-for-php-applications) on adding gitlab's CI to my PHP projects.
+This article follows directly on from my [previous article](/blog/gitlab-ci-for-php-applications) on adding gitlab's CI to my PHP projects.
 
 Once we're happy with our code being automatically tested we might want it to be automatically deployed to a testing server / environment or maybe even production. 
 <!-- more -->
