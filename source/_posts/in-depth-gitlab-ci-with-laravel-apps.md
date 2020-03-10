@@ -1,5 +1,5 @@
 ---
-title: In depth Gitlab CI/CD with Laravel Apps
+title: In depth Gitlab CI with Laravel Apps
 date: 2020-03-06 10:13:49
 tags: 
 - Gitlab
