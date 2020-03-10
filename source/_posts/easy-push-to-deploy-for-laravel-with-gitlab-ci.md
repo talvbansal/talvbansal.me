@@ -1,5 +1,5 @@
 ---
-title: Easy push to deploy for laravel with gitlab ci
+title: Easy push to deploy for Laravel with Gitlab CI
 date: 2020-03-10 10:13:49
 tags: 
 - Gitlab
