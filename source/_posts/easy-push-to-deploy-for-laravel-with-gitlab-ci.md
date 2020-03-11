@@ -30,9 +30,7 @@ Lets imagine I was going to a set up Gitlab CI / CD for a fictional project host
 
 ### Getting started
 
-This guide will assume you have a git repo on gitlab and are making commits along the way.
-
-After creating a new project and changing to its directory on your local machine, the first thing we need to do is install deployer and the initialise it.
+After creating a new project and changing to its directory on your local machine, the first thing we need to do is add laravel deployer to our project and the initialise it.
 ```bash
 composer require lorisleiva/laravel-deployer
 php artisan deploy:init
@@ -89,7 +87,7 @@ return [
 
 Here we'll need to change our `hosts.deployer.talvbansal.com.user` to a user other than `root` for example `deployer` that has access to our projects path on the target deployment server.
 
-Next lets add `php_cs_fixer` so that our ci pipeline has something to do. I use a wrapper which has a Laravel preset:
+Next lets add `php_cs_fixer` so that our ci pipeline has something to do. I use a wrapper made by the [madewithlove](https://madewithlove.com/) team which has a Laravel preset:
 
 ```bash
 composer require madewithlove/php-cs-fixer-config
@@ -110,7 +108,7 @@ return Madewithlove\PhpCsFixer\Config::forLaravel()->mergeRules([
 ]);
 ```
 
-And then run the CS fixer
+And then run the CS fixer so that we can be confident that our pipeline will pass.
 ```bash
 vendor/bin/php-cs-fixer fix --config .php_cs.php
 ```
@@ -146,7 +144,7 @@ live:
 
 Which says run the deploy command to `deployer.talvbansal` using the [upload](https://github.com/lorisleiva/laravel-deployer/blob/master/docs/strategy-upload.md) strategy, only when code is pushed to the `master` branch and only use gitlab runners that have been tagged with `deploy`.
 
-We use the upload strategy to make use of all of the artifacts we've built along the way of the pipeline. The other benefit of this is that we no longer need to have composer and yarn on our servers. The code is already downloaded and compiled for production so we just need our basic LEMP stack to get things going.
+We use the upload strategy to make use of the artifacts we've built along the way of the pipeline, like our production compiled and minified front end assets.
 
 When deploying code I always use a runner I control rather than a public runner just so I know my private SSH key has not entered any machines I'm not in control of. After registering my runner, [see here for setting one up](/blog/maximising-gitlab-ci-s-free-tier/), I then gave it a tag of "deploy". 
 
@@ -230,4 +228,6 @@ Yes we are but just incase there are any errors I've found it to be faster to do
 
 Once your project is deployed (it now will live under a new subfolder of `current` - `/media/websites/deployer.talvbansal.com/current`) you will need to ssh onto your server and update your `.env` file.
 
-If your app is functional then we should be ready to start deploying via gitlab. Commit all of your changes and push gitlab and if everything has gone to plan (and you've just pushed or merged into your master branch!) then soon enough you should see your deploy pipeline being run and your new code live on your server!
+If your app is functional then we should be ready to start deploying via gitlab. 
+
+Commit all of your changes and push gitlab and if everything has gone to plan (and you've just pushed or merged into your master branch!) then soon enough you should see your deploy pipeline being run and your new code live on your server!
