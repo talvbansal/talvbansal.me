@@ -19,7 +19,7 @@ Today I was working on an API written in Laravel for a React Native app with ano
 
 He was trying to make requests to the Laravel backend and told me he kept receiving a response with a http status code of 302. 3XX http status codes are redirection status codes. 
 
-It turned out that he had not set an accept header on the requests to the server that the app was making, as a result the server was re-directing to the server route with the 
+It turned out that he had not set an accept header on the requests to the server that the app was making.
 
 By default if you dont set a requests accept headers they default to `Accept: */*`. With those set laravel responds with a `Content-Type` of `text/html`.
 
