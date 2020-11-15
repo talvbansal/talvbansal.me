@@ -36,7 +36,7 @@ Which are all features that github has built in natively.
 
 Since I used github for my own projects it would have been ideal for us to move to the paid plan over there to keep our repositories private. However our business wanted to keep everything on our own servers - hence the original gitolite set up. 
 
-[Gitlab ](http://www.gitlab.com) is very similar to github in what it offers (free for open source projects, paid for private) but with one big difference, it offers a community version that you can self host. 
+[Gitlab ](http://www.gitlab.com) is very similar to github in what it offers but with one big difference, it offers a community version that you can self host. 
 
 Mostly for my own reference I'm going to detail the steps I've gone through to get our gitlab instance set up. The gitlab install process is straight forward, just follow the [CE documentation](https://about.gitlab.com/downloads/#ubuntu1604).
 
