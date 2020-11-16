@@ -1,6 +1,6 @@
 ---
 title: Bitbucket CI for Laravel PHP applications
-date: 2020-11-15 16:40:39
+date: 2020-10-15 16:40:39
 tags: 
 - Bitbucket
 - Gitlab
