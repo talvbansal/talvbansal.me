@@ -31,10 +31,10 @@ We can achieve this really easily by using middleware to overwrite the `Accept` 
 
 Create a new middleware class:
 ```bash
-php artisan make:middlware RespondWithJsonMiddleware
+php artisan make:middleware RespondWithJsonMiddleware
 ```
 
-Now open the new file created in `app/Http/Middlware` and change the handle method to look like this:
+Now open the new file created in `app/Http/Middleware` and change the handle method to look like this:
 
 ```php
     public function handle($request, Closure $next)
@@ -55,7 +55,7 @@ For my purposes I wanted every request to return JSON so I added this new class 
         'api' => [
             'throttle:60,1',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            App\Http\Middlware\RespondWithJsonMiddleware::class,
+            App\Http\Middleware\RespondWithJsonMiddleware::class,
         ],
 ...
 ```
@@ -97,7 +97,7 @@ protected $routeMiddleware = [
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
 ...
-        'respond.json' => App\Http\Middlware\RespondWithJsonMiddleware::class,
+        'respond.json' => App\Http\Middleware\RespondWithJsonMiddleware::class,
 ];
 ```
 
