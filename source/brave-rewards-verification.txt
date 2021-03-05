@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: talvbansal.me
+Token: bde304476313b12fbdf69adfee9826d5e83e677a12484a03219478bce14b5f3f
