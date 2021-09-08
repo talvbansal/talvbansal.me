@@ -134,7 +134,7 @@ So our final commands look like this:
 
 ```bash
 docker-compose up -d
-docker-composer --rm --service-ports npm run watch
+docker-composer run --rm --service-ports npm run watch
 ```
 
 Or for lazy me:
