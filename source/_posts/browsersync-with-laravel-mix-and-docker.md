@@ -19,7 +19,7 @@ thumbnailImagePosition: right
 
 I've pretty much switched to using docker for everything when doing local development now. 
 
-My set up involves using a `docker-compose.yml` file for the core application dependencies that can be run in production and a `docker-composer.override.yml` file for development. This override file is mostly a load of "support" containers that get used in development, things like php, artisan, npm as well as things like mysql and redis that would be handled elsewhere in production.
+My set up involves using a `docker-compose.yml` file for the core application dependencies that can be run in production and a `docker-compose.override.yml` file for development. This override file is mostly a load of "support" containers that get used in development, things like php, artisan, npm as well as things like mysql and redis that would be handled elsewhere in production.
 
 Since switching to this development model I've just accepted not getting around to getting BrowserSync working· This weekend whilst battling some other issues my fingers got tired of pressing ctrl+r every few seconds so I figured I'd give myself a win by trying to tackle this.
 
@@ -32,7 +32,7 @@ The [Laravel mix docs](https://laravel-mix.com/docs/main/browsersync) have a bri
 Lets start by looking the support container im using for npm commands:
 
 ```yaml
-// docker-composer.override.yml
+// docker-compose.override.yml
   npm:
     image: node:14-alpine
     container_name: my-app-npm
@@ -47,7 +47,7 @@ Lets start by looking the support container im using for npm commands:
 This allows me to run commands like:
 
 ```bash
-docker-composer run  --rm npm run dev
+docker-compose run  --rm npm run dev
 ```
 
 I actually have the first part aliased to save some keystrokes:
@@ -61,7 +61,7 @@ The first change we need to make here is to get this container to expose Browser
 
 
 ```yaml
-// docker-composer.override.yml
+// docker-compose.override.yml
   npm:
     image: node:14-alpine
     container_name: my-app-npm
@@ -79,7 +79,7 @@ The first change we need to make here is to get this container to expose Browser
 
 ### Laravel Mix Config
 
-We'll need to pass an config object to Mix's BrowserSync plugin. However before we do lets quickly review the `app` container definition from the `docker-composer.yml` file:
+We'll need to pass an config object to Mix's BrowserSync plugin. However before we do lets quickly review the `app` container definition from the `docker-compose.yml` file:
 
 ```yaml
 services:
@@ -121,8 +121,8 @@ Back to the Laravel Mix config, add the following:
 We're almost done. Lets restart our application so the new ports are exposed:
 
 ```bash
-docker-composer down
-docker-composer up -d
+docker-compose down
+docker-compose up -d
 ```
 
 Before running `npm run watch` we need to pass an additional argument to the docker-compose run command - "--service-ports".
@@ -134,7 +134,7 @@ So our final commands look like this:
 
 ```bash
 docker-compose up -d
-docker-composer run --rm --service-ports npm run watch
+docker-compose run --rm --service-ports npm run watch
 ```
 
 Or for lazy me:
